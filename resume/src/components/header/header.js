@@ -15,16 +15,18 @@ export default class Header extends Component {
             <li><a className="smoothscroll" href="#portfolio">PORTFOLIO</a></li>
             <li><a className="smoothscroll" href="#testimonials">TEMOIGNAGES</a></li>
             <li><a className="smoothscroll" href="#contact">CONTACT</a></li>
+            <li><a className="smoothscroll" href="#contact"></a></li>
+            <label className="switch"><input type="checkbox" className="checkbox" name=""/>
+            <span className="slider round"></span></label>
           </ul> {/* end #nav */}
         </nav> {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
           <h3>Mon nom est </h3>
             <h1 className="responsive-headline">Etienne NDOUR</h1>
-            <h3>J'habite à Rennes, en Bretagne. Je suis <span>graphiste</span> , 
-            <span>illustrateur</span> et <span>développeur front-end, web et mobile</span>. 
-            J'adore imaginer, tester, me lancer des défis et surtout, je n'aime pas "ne pas 
-            pouvoir finir ce que je commence". Mais si vous le voulez bien, commençons par ... 
+            <h3>J'habite à Rennes, en Bretagne. Je suis <span>graphiste</span>,  
+            <span> illustrateur</span> et <span>développeur web et web mobile.</span>. 
+             J'adore imaginer, tester, et surtout: me lancer des défis. Réaliser ce portfolio en était un. <br/>Et si vous le voulez bien, la suite c'est ... 
             <a className="smoothscroll" href="#about">ici ...</a>
              </h3>
             <hr />
