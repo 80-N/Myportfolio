@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
+
   render() {
+    
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
@@ -15,27 +17,27 @@ export default class Header extends Component {
             <li><a className="smoothscroll" href="#portfolio">PORTFOLIO</a></li>
             <li><a className="smoothscroll" href="#testimonials">TEMOIGNAGES</a></li>
             <li><a className="smoothscroll" href="#contact">CONTACT</a></li>
-            <li><a className="smoothscroll" href="#contact"></a></li>
-            <label className="switch"><input type="checkbox" className="checkbox" name=""/>
+            <li><a className="smoothscroll" href="#contact"> </a></li>
+            <label className="switch"><input type="checkbox" className="checkbox" onClick="toggleBg()"/>
             <span className="slider round"></span></label>
           </ul> {/* end #nav */}
-        </nav> {/* end #nav-wrap */}
+        </nav> {/* end #nav-wrap */}  
         <div className="row banner">
           <div className="banner-text">
-          <h3>Mon nom est </h3>
+          <h3><span>Mon nom est </span></h3>
             <h1 className="responsive-headline">Etienne NDOUR</h1>
-            <h3>J'habite à Rennes, en Bretagne. Je suis <span>graphiste</span>,  
-            <span> illustrateur</span> et <span>développeur web et web mobile.</span>. 
-             J'adore imaginer, tester, et surtout: me lancer des défis. Réaliser ce portfolio en était un. <br/>Et si vous le voulez bien, la suite c'est ... 
-            <a className="smoothscroll" href="#about">ici ...</a>
+            <h3><span>J'habite à Rennes, en Bretagne. <br/>Je suis développeur web et web mobile. <br/>
+             J'adore imaginer, tester, et surtout: me lancer des défis.<br/>Réaliser ce portfolio en était un ... <br/>Et si vous le voulez bien, la suite c'est  
+            <a className="smoothscroll" href="#about"> ici</a>.</span>
              </h3>
             <hr />
             <ul className="social">
-              <li><a href="https://www.facebook.com/etienne.ndour.9" target="blank"><i className="fa fa-facebook" /></a></li>
-              <li><a href="https://twitter.com/EtienneNDOUR2" target="blank"><i className="fa fa-twitter" /></a></li>
               <li><a href="https://www.linkedin.com/in/etienne-ndour-77632265/" target="blank"><i className="fa fa-linkedin" /></a></li>
               <li><a href="https://github.com/80-N" target="blank"><i className="fa fa-github" /></a></li>
+              <li><a href="https://www.facebook.com/etienne.ndour.9" target="blank"><i className="fa fa-facebook" /></a></li>
+              <li><a href="https://twitter.com/EtienneNDOUR2" target="blank"><i className="fa fa-twitter" /></a></li>
             </ul>
+            <hr />   
           </div>
         </div>
         <p className="scrolldown">

@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/webdawal.png" />
+                    <img alt="" src="images/portfolio/webdawalecran2.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>WEBDAWAL</h5>
@@ -387,13 +387,13 @@ export default class Portfolio extends Component {
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/web-portfolio-screen.png" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/webdawalecran2.png" alt="" />
             <div className="description-box">
               <h4>WEBDAWAL</h4>
-              <p>Projet de site web d'apprentissage du code de la route 
+              <p>Site web d'apprentissage du code de la route 
                 pour des personnes analphabètes ou sachant mal lire et écrire en français. 
                HTML5, CSS, PHP, REACT, ILLUSTRATOR, PHOTOSHOP<br/>
-               <a href="https://youtu.be/3ijRyWxsoUc" target="_blank">Lire la viéo</a> sur Youtube.</p>
+               <a href="https://youtu.be/3ijRyWxsoUc" target="_blank">Lire la vidéo</a> sur Youtube.</p>
               <span className="categories"><i className="fa fa-tag" />Web, Vidéo, Graphisme, 3D</span>
             </div>
             <div className="link-box">
@@ -419,7 +419,7 @@ export default class Portfolio extends Component {
               <h4>PORTFOLIO</h4>
               <p>Application réalisée dans le cadre de ma formation chez O'Clock. 
                HTML5, CSS, PHP, REACT.ILLUSTRATOR, PHOTOSHOP<br/>
-               <a href="https://youtu.be/e4NFJL_Eczw" target="_blank">Lire la viéo</a> sur Youtube.</p>
+               <a href="https://youtu.be/e4NFJL_Eczw" target="_blank">Lire la vidéo</a> sur Youtube.</p>
               <span className="categories"><i className="fa fa-tag" />Web, Vidéo, Graphisme, 3D</span>
             </div>
             <div className="link-box">

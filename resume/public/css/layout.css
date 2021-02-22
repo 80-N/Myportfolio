@@ -37,11 +37,27 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/fondgoutte.png) no-repeat top center;
+   background: #161415 url(../images/fond-ciel-nuit.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+}
+
+.header2 {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(../images/baobabjour.png) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+.headerday {
+   background: url(images/baobabjour.png);
 }
 
 /* vertically center banner section */
@@ -86,7 +102,9 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* toggle button */
+/************************************* crossfader *************************************/
+   
+/************************************** toggle button ******************************/
 .switch {
    position: relative;
    display: inline-block;
@@ -184,6 +202,13 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+button {
+   margin-left: 1rem;
+   font-size: 0.8rem;
+   background-color:  #333;
+   cursor: pointer;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -206,6 +231,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    top: 0;
 }
 .opaque { background-color: #333; }
+
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
