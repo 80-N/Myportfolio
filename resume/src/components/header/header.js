@@ -25,7 +25,7 @@ export default class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
           <h3><span>Mon nom est </span></h3>
-            <h1 className="responsive-headline">Etienne NDOUR</h1>
+            <h1 className="responsive-headline">Etienne ND</h1>
             <h3><span>J'habite à Rennes, en Bretagne. <br/>Je suis développeur web et web mobile. <br/>
              J'adore imaginer, tester, et surtout: me lancer des défis.<br/>Réaliser ce portfolio en était un ... <br/>Et si vous le voulez bien, la suite c'est  
             <a className="smoothscroll" href="#about"> ici</a>.</span>
